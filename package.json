@@ -1,0 +1,19 @@
+{
+  "name": "kneat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./services/starshipsService.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "2.6.1"
+  },
+  "devDependencies": {
+    "jest": "26.4.2",
+    "jest-cli": "26.4.2"
+  }
+}

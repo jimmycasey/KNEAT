@@ -1,0 +1,94 @@
+$ node main.js 1000000
+[ { name: 'CR90 corvette', stops: 1 },
+  { name: 'Star Destroyer', stops: 0 },
+  { name: 'Sentinel-class landing craft', stops: 19 },
+  { name: 'Death Star', stops: 3 },
+  { name: 'Millennium Falcon', stops: 9 },
+  { name: 'Y-wing', stops: 74 },
+  { name: 'X-wing', stops: 59 },
+  { name: 'TIE Advanced x1', stops: 79 },
+  { name: 'Executor', stops: 0 },
+  { name: 'Rebel transport', stops: 11 },
+  { name: 'Slave 1', stops: 19 },
+  { name: 'Imperial shuttle', stops: 13 },
+  { name: 'EF76 Nebulon-B escort frigate', stops: 1 },
+  { name: 'Calamari Cruiser', stops: 0 },
+  { name: 'A-wing', stops: 49 },
+  { name: 'B-wing', stops: 65 },
+  { name: 'Republic Cruiser',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Droid control ship',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Naboo fighter',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Naboo Royal Starship',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Scimitar',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'J-type diplomatic barge',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'AA-9 Coruscant freighter',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Jedi starfighter',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'H-type Nubian yacht',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Republic Assault ship',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Solar Sailer',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Trade Federation cruiser',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Theta-class T-2c shuttle',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Republic attack cruiser',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Naboo star skiff',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Jedi Interceptor',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'arc-170', stops: 83 },
+  { name: 'Banking clan frigte',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'Belbullab-22 starfighter',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' },
+  { name: 'V-wing',
+    stops:
+     'Data required to calculate total amount of stops is unavailable.' } ]
+
+
+$ jest
+ PASS  tests/starshipService.test.js
+  ✓ Returns correct number of stops for Rebel Transport (4 ms)
+  ✓ Returns correct number of stops for Millennium Falcon (1 ms)
+  ✓ Returns correct number of stops for Y-wing
+  ✓ Handle when distance is negative (2 ms)
+  ✓ Handle when distance is zero (1 ms)
+  ✓ Handle when distance is non-numeric
+  ✓ Handle when starship MGLT is unknown (1 ms)
+  ✓ Handle when starship consumables is unknown
+  ✓ Handle when starship consumables is invalid (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        1.484 s
+Ran all test suites.
