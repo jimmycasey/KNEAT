@@ -11,5 +11,5 @@ node main.js <distance>
 jest
 
 ## If having problems running locally, can be built with docker instead
-docker build -t kneat .
-docker run kneat
+- docker build -t kneat .
+- docker run kneat
