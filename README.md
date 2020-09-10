@@ -5,7 +5,7 @@ Node Version: v10.22.0
 npm install
 
 ## Process all ships for number of stops, defaults to 1,000,000 if no distance is passed in.
-node main.js <distance>
+node main.js < distance >
 
 ## Run tests
 jest
