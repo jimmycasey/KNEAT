@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/jimmycasey/KNEAT/workflows/Node.js%20CI/badge.svg?branch=master)
+
 ## Dependencies
 Node Version: v10.22.0
 
